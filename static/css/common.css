@@ -1,0 +1,43 @@
+body {
+    background-color: #DCDCDC;
+}
+#navbar{
+    background-color: #303030;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: auto;
+nav{
+    margin: auto;
+}
+}
+
+header {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+div {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: 	#C8C8C8;
+    background-color: #303030;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+.website {
+    max-width:80%;
+}
+
+#posts {
+   max-width:60%;
+   display: inline-block;
+   text-align: left;
+}

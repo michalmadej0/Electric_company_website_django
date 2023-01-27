@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+    {% for post in posts %}
+        <div id="posts">
+            <h1>{{ post.title }}</h1>
+            {{ post.body }}<br><br>
+            Autor: {{ post.author }}<br>
+            {{ post.created_date }}<br>
+            <img src="{{ post.photo }}">
+        </div>
+        <br>
+    {% endfor %}
+
+{% endblock %}
+
